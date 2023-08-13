@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    font:inherit;
+  
+}
+.container {
+    position: relative;
+    padding : 0px 15px;
+    margin :0px 165px;
+}
+body{
+    color: #171717;
+}
+.icon .gray{
+    background-image:url("img/icon_tealeaves.png");
+}
+.breadcrumb > li {
+    display: inline-block;
+}
+.breadcrumb{
+    color: #B2B2B2;
+}
+.breadcrumb > .active {
+    color: #777;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+h1{
+    font-size: 36px;
+  margin:20px 0 10px;
+    text-transform: uppercase;
+    color: #0C713D;
+    font-family: 'Lora';
+}
+.icon:before {
+    left: 0;
+    right: 65%;
+}   
+.icon:after {
+    left: 65%;
+    right: 0;
+}
+.icon:before, .separator-icon:after {
+    content: "";
+    position: absolute;
+    height: 0.5px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icon {
+    background: url("img/icon_tealeaves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.page-heading  {
+    margin: 30px 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+span{
+    font-size: 14px;
+}
+
+
+.page-heading ul.menu li {
+    float: none;
+}
+ h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+    transition: all 0.2s linear;
+    color: inherit;
+}
+.page-heading {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.news-detail .info-detail {
+ 
+        max-width: 680px;
+        margin: 0 auto 30px;
+        text-align: center;
+    
+}
+ .info-detail h1 {
+    line-height: 50px;
+}
+.font{
+    font-size:15px;
+}
+.color{
+    color:#FF0000;
+}
+.news-detail .detail_content {
+    max-width: 770px;
+    margin: 70px auto;
+}
+p{
+    margin :0 0 16px;
+}
+.bold{
+    color :#0D1282;
+}
+strong{
+    font-weight: 700;
+}
+ul{
+    margin-bottom :14px;
+}
+
+
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border :0;
+}
+.infor-detail{
+    margin :0 230px 30px;
+}
